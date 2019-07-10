@@ -1,21 +1,120 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.game-v{
+  width: 100%;
+  height: 984rpx;
+  background-image: url('https://www.jwnice.com/h5/feiji/wximage/bg1.jpg');
+  background-size: 100% 100%;
+  position: relative;
+  float: left;
+}
+.gift-v{
+  width: 100%;
+  height: 385rpx;
+  background-image: url('https://www.jwnice.com/h5/feiji/wximage/bg2.jpg');
+  background-size: 100% 100%;
+  position: relative;
+  float: left;
+}
+.guizhe-v{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 999
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.info-v{
+  width: 100%;
+  height: 4737rpx;
+  background-image: url('https://www.jwnice.com/h5/feiji/wximage/bg3.jpg');
+  background-size: 100% 100%;
+  float: left;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.logo{
+  width: 253rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.guizhe{
+  width: 138rpx;
+  height: 132rpx;
+  position: absolute;
+  top: 0rpx;
+  right: 15rpx;
+}
+
+.btn1{
+  width: 700rpx;
+  height: 261rpx;
+  position: absolute;
+  bottom: -25rpx;
+  right: 25rpx;
+}
+
+.jp1{
+ width: 220rpx;
+  height: 220rpx;
+  position: absolute;
+  top:125rpx;
+  left:25rpx;
+}
+
+.jp2{
+ width: 220rpx;
+  height: 220rpx;
+  position: absolute;
+  top:125rpx;
+  left:267rpx;
+}
+
+.jp3{
+ width: 220rpx;
+  height: 220rpx;
+  position: absolute;
+  top:125rpx;
+  left:510rpx;
+}
+.wode{
+  width: 184rpx;
+  height: 109rpx;
+  position: absolute;
+  top:-3rpx;
+  right:-68rpx;
+  z-index: 99;
+}
+.phb{
+    width: 184rpx;
+  height: 79rpx;
+  position: absolute;
+  top:120rpx;
+  right:-45rpx;
+  z-index: 99;
+}
+
+.t1{
+  width: 585rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 30rpx;
+  right: 82.5rpx;
+}
+
+.game-num{
+  padding:5rpx 20rpx;
+  width: auto;
+  position: absolute;
+  top: 140rpx;
+  font-weight: 600;
+  right: 20rpx;
+  height: 40rpx;
+  font-size: 30rpx;
+  line-height: 35rpx;
+  border-radius: 50rpx;
+  border: 1px solid #bd8426;
+  color: #fdd000;
 }

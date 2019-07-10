@@ -1,13 +1,23 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="game-v">
+  <image src="../../images/logo.png" class="logo"></image>
+  <image src="../../images/guizhe.png" class="guizhe"></image>
+  <view class="game-num">
+   <text>当前生命数：</text><text style="font-size:35rpx;">1</text>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+   <image src="../../images/btn1.png" class="btn1"></image>
 </view>
+<view class="gift-v">
+   <image src="../../images/t1.png" class="t1"></image>
+   <image src="../../images/jp1.png" class="jp1"></image>
+   <image src="../../images/jp2.png" class="jp2"></image>
+   <image src="../../images/jp3.png" class="jp3"></image>
+   <image src="../../images/wode.png" class="wode"></image>
+     <image src="../../images/phb.png" class="phb"></image>
+</view>
+<view class="info-v">
+</view>
+<view class="guizhe-v">
+
+</view>
+
